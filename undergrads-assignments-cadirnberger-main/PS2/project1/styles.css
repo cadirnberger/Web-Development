@@ -1,0 +1,145 @@
+<<<<<<< HEAD
+/* Add your CSS style definitions to this file */
+body{
+    background-color: #f9f9f9;
+    margin-top: 0em;
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-bottom: 0em;
+    padding: 3em;
+}
+article {
+    background-color: white;
+    
+    
+    
+}
+img{
+    width: 100%;
+}
+h1{
+    color: #9f2042;
+    font-family: roboto slab;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+blockquote{
+    font-family: roboto slab;
+    font-size: 1.25rem;
+    border: 1pt solid #ececec;
+    background-color: #f9f9f9;
+    padding: 15pt;
+
+    
+}
+p, div{
+    font-family: open sans;
+    font-size: 1rem;
+    padding: 1em;
+    
+}
+
+#details {
+    text-align: center;
+    color: #a9a9ba;
+}
+div a{
+    display: inline-block;
+    background-color: white;
+    color: #ec8295;
+    padding: 1em 1.5em;
+    border: 1pt solid rgb(198, 196, 196);
+    border-radius: 6px;
+    text-transform: uppercase;
+    
+}
+a:hover{
+    color: #9f2042;
+    background-color: #a9a9ba;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #29293a;
+    padding: 10pt;
+    
+}
+footer p{
+    font-size: .9rem;
+    padding: 10pt;
+
+}
+=======
+/* Add your CSS style definitions to this file */
+body{
+    background-color: #f9f9f9;
+    margin-top: 0em;
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-bottom: 0em;
+    padding: 3em;
+}
+article {
+    background-color: white;
+    
+    
+    
+}
+img{
+    width: 100%;
+}
+h1{
+    color: #9f2042;
+    font-family: roboto slab;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+blockquote{
+    font-family: roboto slab;
+    font-size: 1.25rem;
+    border: 1pt solid #ececec;
+    background-color: #f9f9f9;
+    padding: 15pt;
+
+    
+}
+p, div{
+    font-family: open sans;
+    font-size: 1rem;
+    padding: 1em;
+    
+}
+
+#details {
+    text-align: center;
+    color: #a9a9ba;
+}
+div a{
+    display: inline-block;
+    background-color: white;
+    color: #ec8295;
+    padding: 1em 1.5em;
+    border: 1pt solid rgb(198, 196, 196);
+    border-radius: 6px;
+    text-transform: uppercase;
+    
+}
+a:hover{
+    color: #9f2042;
+    background-color: #a9a9ba;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #29293a;
+    padding: 10pt;
+    
+}
+footer p{
+    font-size: .9rem;
+    padding: 10pt;
+
+}
+>>>>>>> 6b3518e30bfafc287fb7f34da27cf22795b2b55c

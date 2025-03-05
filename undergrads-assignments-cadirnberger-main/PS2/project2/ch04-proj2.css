@@ -1,0 +1,265 @@
+<<<<<<< HEAD
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #e4e7eb;
+   font-weight: 300;
+}
+header {
+   margin-left: 20px;
+}
+h1 {
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+
+/* add styles here */
+body {
+   padding: 60px;
+   display: inline-block;
+}
+
+section{
+   width: 989.5px;
+   height: 500px;
+   padding: 10px;
+   display: inline-block;
+   box-shadow: 0 4px 6px rgba(47,59,64,0.35);
+}
+h3{
+   padding: 20px;
+   font-size: 36px;
+}
+p{
+   font-size: 36px;
+   font-weight: 800;
+}
+p span{
+   font-size: 18px;
+   font-weight: 300;
+}
+li {
+   font-size: 18px;
+   font-weight: 300;
+}
+li span{
+   font-size: 18px;
+   font-weight: 600;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   list-style-type: none;
+}
+div:nth-last-child(2){
+   background-color: #2f4f4f;
+}
+.column{
+   display: inline-block;
+   background-color: white;
+   text-align: center;
+   width: 300px;
+   height: 400px;
+   margin-left: 20px;
+}
+.free {
+   background-color: #5BB189;
+}
+.standard{
+   background-color: #4b0082
+}
+.professional{
+   background-color: #ec632a
+}
+li { 
+   padding: 10px;
+}
+.column li:nth-child(2){
+   background-color: rgba(47,59,64,0.35);
+}
+.column li:nth-child(4){
+   background-color: rgba(47,59,64,0.35);
+}
+.column div a{
+   display: inline-block;
+   margin-top: 15px;
+   padding: 15px;
+   margin-bottom: 10px;
+   background-color: #3a6ba5;
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 4px;
+ 
+}
+li a {
+   color: #3a6ba5;
+   background-color: rgba(47,59,64,0.35);
+}
+.column a:hover{
+   background-color: #437bcf;
+}
+#confidence{
+   margin: 40px;
+   padding: 40px;
+   color: white;
+   font-size: 18px;
+   margin-left: 20px;
+}
+#confidence p{
+   font-size: 16px;
+   font-weight: 100;
+}
+#confidence li{
+   background-image: url('checkmark.svg');
+   background-size: 24px;
+   background-position: left center;
+   padding-left: 40px;
+   background-repeat: no-repeat;
+   font-size: 16px;
+}
+
+=======
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #e4e7eb;
+   font-weight: 300;
+}
+header {
+   margin-left: 20px;
+}
+h1 {
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+
+/* add styles here */
+body {
+   padding: 60px;
+   display: inline-block;
+}
+
+section{
+   width: 989.5px;
+   height: 500px;
+   padding: 10px;
+   display: inline-block;
+   box-shadow: 0 4px 6px rgba(47,59,64,0.35);
+}
+h3{
+   padding: 20px;
+   font-size: 36px;
+}
+p{
+   font-size: 36px;
+   font-weight: 800;
+}
+p span{
+   font-size: 18px;
+   font-weight: 300;
+}
+li {
+   font-size: 18px;
+   font-weight: 300;
+}
+li span{
+   font-size: 18px;
+   font-weight: 600;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   list-style-type: none;
+}
+div:nth-last-child(2){
+   background-color: #2f4f4f;
+}
+.column{
+   display: inline-block;
+   background-color: white;
+   text-align: center;
+   width: 300px;
+   height: 400px;
+   margin-left: 20px;
+}
+.free {
+   background-color: #5BB189;
+}
+.standard{
+   background-color: #4b0082
+}
+.professional{
+   background-color: #ec632a
+}
+li { 
+   padding: 10px;
+}
+.column li:nth-child(2){
+   background-color: rgba(47,59,64,0.35);
+}
+.column li:nth-child(4){
+   background-color: rgba(47,59,64,0.35);
+}
+.column div a{
+   display: inline-block;
+   margin-top: 15px;
+   padding: 15px;
+   margin-bottom: 10px;
+   background-color: #3a6ba5;
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 4px;
+ 
+}
+li a {
+   color: #3a6ba5;
+   background-color: rgba(47,59,64,0.35);
+}
+.column a:hover{
+   background-color: #437bcf;
+}
+#confidence{
+   margin: 40px;
+   padding: 40px;
+   color: white;
+   font-size: 18px;
+   margin-left: 20px;
+}
+#confidence p{
+   font-size: 16px;
+   font-weight: 100;
+}
+#confidence li{
+   background-image: url('checkmark.svg');
+   background-size: 24px;
+   background-position: left center;
+   padding-left: 40px;
+   background-repeat: no-repeat;
+   font-size: 16px;
+}
+
+>>>>>>> 6b3518e30bfafc287fb7f34da27cf22795b2b55c

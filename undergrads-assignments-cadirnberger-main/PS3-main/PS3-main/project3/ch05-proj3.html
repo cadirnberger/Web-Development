@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="ch05-proj3.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+      <form action="https://www.randyconnolly.com/tests/process.php">
+         <fieldset>
+            <legend>Photo Details</legend>
+            <table>
+               <tr>
+                  <td><label for="title">Title:</label></td>
+                  <td><input type="text" id="title" name="title" required></td>
+              </tr>
+              <tr>
+                  <td><label for="description">Description:</label></td>
+                  <td><textarea id="description" name="description" rows="4"></textarea></td>
+              </tr>
+            </table>
+            <table class="continent">
+                <tr>
+                  <td><label for="continent">Continent:</label></td>
+                  <td>
+                    <select id="continent" name="continent">
+                      <option value="">Select</option>
+                      <option value="africa">Africa</option>
+                      <option value="asia">Asia</option>
+                      </select>
+                  </td>
+                </tr>
+                <div>
+                <tr class="country">
+                  <td><label for="country">Country:</label></td>
+                  <td>
+                      <select id="country" name="country">
+                          <option>USA</option>
+                          <option>Canada</option>
+                          <option>Mexico</option>
+                          <option>France</option>
+                          <option>Germany</option>
+                      </select>
+                  </td>
+              </tr>
+                <tr>
+                  <td><label for="city">City:</label></td>
+                  <td><input type="text" id="city" name="city"></td>
+                </tr>
+               </table>
+                <table class="copyright">
+                <tr>
+                  <td><label for="copyright">Copyright:</label></td>
+                  <td>
+                     <input type="radio" name="copyright" value="all-rights" checked> All rights reserved
+                  </td>    
+                  <td> <input type="radio" name="copyright" value="creative-commons"> Creative Commons
+                  </td>
+              </tr>
+                   <tr>
+                     <td><label for="cc-type">Creative Commons types:</label></td>
+                     <td>
+                       <input type="checkbox" id="attribution" name="cc-type[ ]" value="10">
+                       <label for="attribution">Attribution</label><br>
+                       <input type="checkbox" id="noncommercial" name="cc-type[ ]" value="20">
+                       <label for="noncommercial">Noncommercial</label><br>
+                       <input type="checkbox" id="no-derivatives" name="cc-type[ ]" value="30">
+                       <label for="no-derivatives">No Derivative Works</label>
+                     </td>
+                   </tr>
+               </table>
+               <table>
+                <td class="software">
+                  <label for="software-license">I accept the software licence</label>
+                  <input type="checkbox" id="software-license" name="accept" required>
+              </td>
+             </tr>
+             <tr>
+               <td><label for="rating">Rate this photo:</label></td>
+               <td><input type="number" id="rating" name="rating" min="1" max="10" step="0.1"></td>
+             </tr>
+                <tr>
+                  <td><label for="date-taken">Date Taken:</label></td>
+                  <td><input type="date" id="date-taken" name="date-taken"></td>
+                </tr>
+                <tr>
+                  <td><label for="time-taken">Time Taken:</label></td>
+                  <td><input type="time" id="time-taken" name="time-taken"></td>
+                </tr>
+                <tr>
+                  <td><label for="color-collection">Color Collection:</label></td>
+                  <td><input type="color" id="color-collection" name="color-collection"></td>
+                </tr>
+          
+               <tr class="button">
+                   <td colspan="2" class="buttons">
+                       <button type="submit">Submit</button>
+                       <button type="reset">Clear</button>
+                   </td>
+               </tr>
+           </table>
+         </fieldset>
+      </form>       
+   </section>
+</main>  
+
+
+</body>
+</html>
+
+
+</body>
+</html>
